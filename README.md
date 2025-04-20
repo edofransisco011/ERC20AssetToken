@@ -165,3 +165,29 @@ contract ERC20AssetToken is ERC20Pausable, Ownable {
         _unpause();
     }
 }
+
+Testing
+Manual testing was performed using the Remix VM environment to verify the correct behavior of all functions, including:
+
+Initial deployment and state verification.
+Standard ERC-20 transfers and approvals.
+Owner-controlled minting and burning within supply limits.
+Setting and retrieving the asset information URI.
+Pausing and unpausing contract operations and verifying restrictions.
+Access control checks for owner-only functions.
+For production-grade smart contracts, implementing comprehensive automated unit and integration tests using frameworks like Hardhat or Foundry is essential.
+
+Future Improvements (Optional)
+Potential areas for further development include:
+
+Implementing a full automated test suite.
+Building a simple decentralized application (dApp) front-end to interact with the token.
+Exploring mechanisms for tying the token value or distributions (simulated) to off-chain data (e.g., via oracles).
+Adding more complex RWA-specific features (simulated), such as fractional ownership management or dividend distribution logic.
+Investigating upgradability patterns (though more advanced).
+
+License
+This project is licensed under the MIT License.
+
+Author
+edofransisco011
