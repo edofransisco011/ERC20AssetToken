@@ -169,8 +169,8 @@ contract ERC20AssetToken is ERC20Pausable, Ownable {
 ## Testing
 Manual testing was performed using the Remix VM environment to verify the correct behavior of all functions, including:
 
-Initial deployment and state verification.
-Standard ERC-20 transfers and approvals.
+*Initial deployment and state verification.
+*Standard ERC-20 transfers and approvals.
 Owner-controlled minting and burning within supply limits.
 Setting and retrieving the asset information URI.
 Pausing and unpausing contract operations and verifying restrictions.
