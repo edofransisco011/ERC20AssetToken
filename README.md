@@ -40,7 +40,7 @@ This contract has been deployed to the **Sepolia** Ethereum testnet.
 
 * **Testnet:** Sepolia
 * **Contract Address:** `0xAe06e41E1452cc39e4f2214f4674762303c257Cc`
-* **Etherscan Link:** [Insert the link to the contract on sepolia.etherscan.io here]
+* **Etherscan Link:** [https://sepolia.etherscan.io/tx/0x287273d995c9fbb36ffc10e8c313e10851562ddd553fade5db47c9119d81195b]
 
 *Note: As this is a testnet deployment, the tokens and transactions have no real-world value. Testnet explorers like Sepolia Etherscan allow you to view the contract's code (if verified), read public data, and interact with functions.*
 
